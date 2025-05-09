@@ -11,27 +11,11 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Address {
+public class TimeRange {
 
     @Field(type = FieldType.Keyword)
-    private String streetNumber;
-
-    @Field(type = FieldType.Text)
-    private String streetName;
+    private String openTime;
 
     @Field(type = FieldType.Keyword)
-    private String unit;
-
-    @Field(type = FieldType.Keyword)
-    private String city;
-
-    @Field(type = FieldType.Keyword)
-    private String state;
-
-    @Field(type = FieldType.Keyword)
-    private String postalCode;
-
-    @Field(type = FieldType.Keyword)
-    private String country;
-
+    private String closeTime;
 }
