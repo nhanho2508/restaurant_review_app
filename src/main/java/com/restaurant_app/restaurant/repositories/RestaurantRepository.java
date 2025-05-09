@@ -1,6 +1,6 @@
-package com.devtiro.restaurant.repositories;
+package com.restaurant_app.restaurant.repositories;
 
-import com.devtiro.restaurant.domain.entities.Restaurant;
+import com.restaurant_app.restaurant.domain.entities.Restaurant;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
 

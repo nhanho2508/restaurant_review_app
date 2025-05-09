@@ -1,4 +1,4 @@
-package com.devtiro.restaurant.domain.entities;
+package com.restaurant_app.restaurant.domain.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
