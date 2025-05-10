@@ -1,6 +1,6 @@
-package com.restaurant_app.restaurant.repositories;
+package com.devtiro.restaurant.repositories;
 
-import com.restaurant_app.restaurant.domain.entities.Restaurant;
+import com.devtiro.restaurant.domain.entities.Restaurant;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.annotations.Query;

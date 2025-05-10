@@ -1,8 +1,8 @@
-package com.restaurant_app.restaurant.services.impl;
+package com.devtiro.restaurant.services.impl;
 
-import com.restaurant_app.restaurant.domain.entities.Photo;
-import com.restaurant_app.restaurant.services.PhotoService;
-import com.restaurant_app.restaurant.services.StorageService;
+import com.devtiro.restaurant.domain.entities.Photo;
+import com.devtiro.restaurant.services.PhotoService;
+import com.devtiro.restaurant.services.StorageService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
