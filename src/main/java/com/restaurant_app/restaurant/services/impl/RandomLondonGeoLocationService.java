@@ -26,5 +26,4 @@ public class RandomLondonGeoLocationService implements GeoLocationService {
                 .longitude(longitude)
                 .build();
     }
-
 }

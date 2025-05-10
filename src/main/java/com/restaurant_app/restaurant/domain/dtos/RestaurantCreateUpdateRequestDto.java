@@ -1,7 +1,5 @@
 package com.restaurant_app.restaurant.domain.dtos;
 
-import com.restaurant_app.restaurant.domain.entities.Address;
-import com.restaurant_app.restaurant.domain.entities.OperatingHours;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

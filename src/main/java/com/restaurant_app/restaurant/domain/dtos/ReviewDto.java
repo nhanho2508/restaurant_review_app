@@ -1,14 +1,9 @@
 package com.restaurant_app.restaurant.domain.dtos;
 
-import com.restaurant_app.restaurant.domain.entities.Photo;
-import com.restaurant_app.restaurant.domain.entities.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.elasticsearch.annotations.DateFormat;
-import org.springframework.data.elasticsearch.annotations.Field;
-import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
